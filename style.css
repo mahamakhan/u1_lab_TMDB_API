@@ -1,16 +1,21 @@
+*{
+  font-family: 'Rubik Moonrocks', cursive;
+}
+
 body {
   text-align: center;
-  background-color: #999999;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #353a75;
+  font-family:cursive;
 }
 
 h1 {
-  color: white;
+  color: rgb(212, 133, 133);
+  font-size: 50px;
 }
 
 input {
   padding: 8px;
-  border-radius: 2px;
+  border-radius: 20px;
   margin:5px;
 }
 
@@ -19,15 +24,17 @@ img {
 }
 
 button {
-  border: 1px solid black;
-  background-color: #cc4949;
-  color: white;
+  border: 1px solid rgb(22, 87, 4);
+  background-color: #49ccad;
+  color: rgb(15, 78, 47);
   padding: 8px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #ff4b4b;
+  background-color: #6771e1;
+  
+ 
 }
 
 .search-section {
@@ -37,3 +44,12 @@ button:hover {
   padding: 10px;
   margin: 10px;
 }
+ button {
+  margin: 30px;
+  border-radius: 40px;
+  color: azure;
+
+ }
+ .movie-list{
+  color: rgb(199, 199, 97);
+ }

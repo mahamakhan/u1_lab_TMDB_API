@@ -24,9 +24,7 @@ button.addEventListener('click', async () => {
 
     const details = document.createElement('button')
     details.innerHTML = 'View Details'
-    details.addEventListener('click', () => {
-      console.log('done')
-    })
+    details.addEventListener('click', () => {})
     movieItem.append(details)
   })
 })
